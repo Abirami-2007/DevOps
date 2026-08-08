@@ -62,7 +62,7 @@ live at `https://huggingface.co/your-hf-username/your-model-name`.
 Edit `evaluate.min_accuracy` in `params.yaml`. Anything scoring below that
 never reaches Hugging Face — the `deploy_to_huggingface` job simply doesn't run.
 
-## Try it locally first (optional but recommended)
+## Try it locally first (optional)
 
 ```bash
 pip install -r requirements.txt
